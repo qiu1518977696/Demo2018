@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+      
+	      <item
+	         android:id="fragment1"
+	         android:icon="@drawable/set1"
+	         android:title="Fragment1"
+	      >
+	      </item>
+	      <item
+			      android:id="fragment2"
+			      android:icon="@drawable/set1"
+			      android:title="Fragment2"
+	      >
+	      </item>
+	      <item
+			      android:id="fragment3"
+			      android:icon="@drawable/set1"
+			      android:title="Fragment3"
+	      >
+	      </item>
+	      <item
+			      android:id="fragment4"
+			      android:icon="@drawable/set1"
+			      android:title="Fragment4"
+	      >
+	      </item>
+	      <item
+			      android:id="fragment5"
+			      android:icon="@drawable/set1"
+			      android:title="Fragment5"
+	      >
+	      </item>
+	      <item
+			      android:id="fragment6"
+			      android:icon="@drawable/set1"
+			      android:title="Fragment6"
+	      >
+	      </item>
+	      <item
+			      android:id="fragment7"
+			      android:icon="@drawable/set1"
+			      android:title="Fragment7"
+	      >
+	      </item>
+	      <item
+			      android:id="fragment8"
+			      android:icon="@drawable/set1"
+			      android:title="Fragment8"
+	      >
+	      </item>
+      
+</menu>
