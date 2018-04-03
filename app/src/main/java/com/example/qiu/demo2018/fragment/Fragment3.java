@@ -12,7 +12,6 @@ public class Fragment3 extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         view=inflater.inflate(R.layout.layout_fragment_03,null);
-
         return view;
     }
     @Override

@@ -2,8 +2,29 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
               android:layout_height="match_parent">
-            <TextView
-		            android:layout_width="match_parent"
-		            android:text="第一个页面"
-		            android:layout_height="wrap_content" tools:ignore="HardcodedText"/>
+	<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:layout_margin="20dp"
+	>
+		<ImageView android:layout_width="0dp"
+		           android:layout_height="wrap_content"
+		           android:layout_weight="1"
+		           android:src="@drawable/shipin"
+		           android:id="@+id/imageview_1"
+		/>
+		<ImageView android:layout_width="0dp"
+		           android:layout_height="wrap_content"
+		           android:layout_weight="1"
+		           android:src="@drawable/shipin"
+		           android:id="@+id/imageview_2"
+		/>
+		<ImageView android:layout_width="0dp"
+		           android:layout_height="wrap_content"
+		           android:layout_weight="1"
+		           android:src="@drawable/shipin"
+		           android:id="@+id/imageview_3"
+		/>
+	</LinearLayout>
 </LinearLayout>
