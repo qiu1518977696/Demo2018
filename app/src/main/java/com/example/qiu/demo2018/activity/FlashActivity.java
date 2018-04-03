@@ -9,7 +9,7 @@ import android.widget.TextView;
 import com.example.qiu.demo2018.R;
 public class FlashActivity extends Activity implements View.OnClickListener {
   private Handler handler=new Handler();
-    private TextView textView2;
+  private TextView textView2;
   private  MyCountDownTimer timer;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +17,7 @@ public class FlashActivity extends Activity implements View.OnClickListener {
         setContentView(R.layout.activity_flash);
         textView2= (TextView) findViewById(R.id.textView2);
         textView2.setAlpha(0.6f);
-        timer=new MyCountDownTimer(10000,1000);
+        timer=new MyCountDownTimer(3000,1000);
         timer.start();
         textView2.setOnClickListener(this);
         handler.postDelayed(run,3000);
@@ -25,13 +25,13 @@ public class FlashActivity extends Activity implements View.OnClickListener {
   Runnable run=new Runnable() {
       @Override
       public void run() {
-          startActivity(new Intent(FlashActivity.this,MainActivity.class));
+          startActivity(new Intent(FlashActivity.this,LoginActivity.class));
           FlashActivity.this.finish();
       }
   };
     @Override
     public void onClick(View v) {
-        startActivity(new Intent(FlashActivity.this,MainActivity.class));
+        startActivity(new Intent(FlashActivity.this,LoginActivity.class));
         handler.removeCallbacks(run);
         this.finish();
     }
