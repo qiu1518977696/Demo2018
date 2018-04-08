@@ -17,7 +17,7 @@ public class FlashActivity extends Activity implements View.OnClickListener {
         setContentView(R.layout.activity_flash);
         textView2= (TextView) findViewById(R.id.textView2);
         textView2.setAlpha(0.6f);
-        timer=new MyCountDownTimer(10000,1000);
+        timer=new MyCountDownTimer(3000,1000);
         timer.start();
         textView2.setOnClickListener(this);
         handler.postDelayed(run,3000);

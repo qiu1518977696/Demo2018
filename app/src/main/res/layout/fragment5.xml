@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 信息的实时刷新-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_margin="5dp"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/dh" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="温度:"
+                android:textSize="24sp"/>
+            <TextView
+                android:id="@+id/tv_wd"
+                android:layout_marginLeft="5dp"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="20°C"/>
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="PM2.5:"
+                android:textSize="24sp"/>
+            <TextView
+                android:id="@+id/tv_pm"
+                android:layout_marginLeft="5dp"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="20°C"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

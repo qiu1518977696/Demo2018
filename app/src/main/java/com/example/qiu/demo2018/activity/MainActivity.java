@@ -56,7 +56,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 getFragmentManager().beginTransaction().replace(R.id.liner_view,new Fragment3()).addToBackStack(null).commit();
                 break;
             case R.id.fragment4:
-                getFragmentManager().beginTransaction().replace(R.id.liner_view,new Fragment4()).addToBackStack(null).commit();
+                getFragmentManager().beginTransaction().replace(R.id.liner_view,new TrafficLightInfoFragment()).addToBackStack(null).commit();
+
                 break;
             case R.id.fragment5:
                 getFragmentManager().beginTransaction().replace(R.id.liner_view,new Fragment5()).addToBackStack(null).commit();
